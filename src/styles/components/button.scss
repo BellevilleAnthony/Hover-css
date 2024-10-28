@@ -1,0 +1,148 @@
+.link-item{
+    position: relative;
+    padding-bottom: 4px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+}
+.link-item--underline{
+    &::after{
+        background-color: var(--color-primary);
+        content: " ";
+        height: 4px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-out;
+    }   
+    &:hover::after{
+        transform: translateY(-100%);
+    }
+}
+
+
+
+.link-item{
+   color: white;
+   position: relative;
+   padding: 4px;
+}
+.link-item--bg{
+    color: white;
+    &::before{
+        background-color: var(--color-primary);
+        content: "";
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: transform 0.3s ease-out;
+        transform: scaleY(0);
+    }   
+    &:hover{
+        color: white;
+        
+    }
+    &:hover::before{
+        transform: scaleY(100%);
+    }
+}
+
+
+.link-item{
+    position: relative;
+    padding-bottom: 4px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+}
+.link-item--underline-side{
+    &::after{
+        background-color: var(--color-primary);
+        content: " ";
+        height: 4px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        transform: scaleX(0%);
+    }   
+    &:hover::after{
+        transform: scaleX(100%);
+        transition: transform 0.3s ease-out;
+    }
+}
+
+
+
+.link-item{
+    position: relative;
+    padding-bottom: 4px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+}
+.link-item--underline-side-2{
+    &::after{
+        background-color: var(--color-primary);
+        content: " ";
+        height: 4px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        transform: scaleX(0%);
+        transform-origin:left;
+        transition: transform 0.3s ease-out;
+    }   
+    &:hover::after{
+        transform: scaleX(100%);
+        transform-origin: right;
+    }
+}
+
+/*exercice 2 fin debut 3*/
+.links{
+
+    .button{
+        border: 2px green solid;
+        padding: 5px 20px;
+        position: relative;
+        &::before{
+            background-color: white;
+            content: " ";
+            height: 100%;
+            width: 100%;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            transform: scaleX(0%) skew(45deg);
+            transform-origin: left ;
+            transition: transform 0.3s ease-out;
+        }   
+        &:hover::before{
+            transform: scaleX(100%);
+            z-index: -1;
+            color: white;
+        }
+    }
+}
+
+
+

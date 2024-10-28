@@ -1,0 +1,1 @@
+!function(){"use strict";(class{static load(e){e=e||"assets/icons.svg",fetch(e).then((e=>{if(e.ok)return e.text();throw new Error("Le fichier icons est introuvable.")})).then((e=>{const t=document.createElement("div");t.style.display="none",t.innerHTML=e,document.body.appendChild(t)})).catch((e=>{console.log(`Une erreur est survenur : ${e.message}`)}))}}).load()}();
