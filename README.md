@@ -1,18 +1,16 @@
-# Stack de développement frontend TimTools
+Hover CSS
 
-C'est quoi un stack de développement frontend? C'est un ensemble d'outil qui permet d'automatiser certaines tâches redondantes et plus complexe afin de d'accélérer et d'optmiser le développement d'un site web ou une application.
+Introduction au transition css qui permet de mettre de l'intéraction sur le web.
 
-## Après avoir cloné un projet pour la 1ère fois
+Objectif dynamismé et rendre plus belle les pages web. Permettre aux clients d'intéragir avec les éléments d'une page web.
 
-- `npm install` afin d'installer les dépendances (dossier node_modules)
+Pour lancer le programme: faites npm i et nmp start dans le terminal.
 
-## Tâches
+Étapes 
 
-- Afin de démarrer le stack de développement, vous connaissez déjà npm i ou npm install pour installez les dépendances pour utiliser GULP.
-- Maintenant pour démarrer votre GULP vous allez devoir utiliser npm start à la place de gulp
+1: Vérifier que vous avez les classes dans chaques exercices ex: link-item (voir css au besoin).
 
-| Commandes disponibles | Description                                                                                                 |
-| :-------------------- | :---------------------------------------------------------------------------------------------------------- |
-| `npm start`           | Génère un environnement de développement, démarre un serveur web et va attendre des changements de fichiers |
+2: Vérifier que vous avez les imports dans le main.scss (nav icons default button card) dans la section ELEMENTS.
 
+le but est de mettre de l'avant l'intéraction sur différents types d'éléments.
 
