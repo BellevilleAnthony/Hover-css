@@ -15,6 +15,4 @@ C'est quoi un stack de développement frontend? C'est un ensemble d'outil qui pe
 | :-------------------- | :---------------------------------------------------------------------------------------------------------- |
 | `npm start`           | Génère un environnement de développement, démarre un serveur web et va attendre des changements de fichiers |
 
-<br><br><br><hr>
-Préparé par : Matthieu Parent et Jean-François Leblanc  
-_timtools v1.3_
+
